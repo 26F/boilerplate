@@ -38,7 +38,7 @@ int main(void)
 {
 	vector<vector<int>> graph = {{2,4,5}, {4,5}, {0,3,4}, {2}, {0,1,2,5}, {0,1,4}};
 
-	vector<int> result = depth_first_search(graph, v);
+	vector<int> result = depth_first_search(graph, 0);
 	for (int i : result) {
 		cout << i << " ";
 	}
